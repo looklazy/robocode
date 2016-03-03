@@ -1,5 +1,9 @@
 # Run with IntelliJ IDEA
 
+0. Configuration Project Structure  
+  0-1. Set **Project SDK** to `1.8` and **Proejct language level** to `8`.  
+  0-2. Set **Project compiler output** to `<your workspace directory>/out` (e.g. */workspace/robocode/out*)  
+  
 1. Add new Run Configuration as **Application** [#](http://robowiki.net/wiki/Robocode/Running_from_Eclipse)  
   1-1. **Main Class** : `robocode.Robocode`  
   1-2. **VM Options** : `-Xmx512M -Dsun.io.useCanonCaches=false -Ddebug=true`  
