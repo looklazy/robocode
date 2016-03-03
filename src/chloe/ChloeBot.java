@@ -1,4 +1,4 @@
-package robosample;
+package chloe;
 
 import robocode.HitRobotEvent;
 import robocode.HitWallEvent;
@@ -35,3 +35,4 @@ public class ChloeBot extends Robot {
 		back(50);
 	}
 }
+
