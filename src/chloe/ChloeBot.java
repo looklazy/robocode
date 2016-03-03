@@ -14,7 +14,11 @@ public class ChloeBot extends Robot {
 		setColors(Color.pink, Color.yellow, Color.cyan, Color.white, Color.orange);
 
 		while (true) {
+<<<<<<< HEAD
 			ahead(50);
+=======
+			ahead(60);
+>>>>>>> origin/master
 			turnLeft(10);
 			turnGunRight(360);
 		}
